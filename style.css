@@ -1,0 +1,100 @@
+a img{
+    width: 200px;
+    height: 35px;
+} 
+
+h1{
+    font-size: 40px;
+}
+
+.right-image {
+    height: 500px;
+    width: 500px;
+}
+.right-image img {
+    height: 100%;
+    width: 100%;
+}
+section.intro {
+    background: #faebd791;
+    padding-top: 145px;
+}
+.first-text {
+    margin-top: 160px;
+}
+
+.card img {
+    height: 229px;
+    object-fit: contain;
+}
+.card {
+    border: 0;
+    box-shadow: 1px 12px 5px #44444421;
+    border-radius: 25px;
+}
+.card-header {
+    border-radius: 29px !important;
+    border: 0;
+}
+.card-footer h4{
+    color: orange;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.first-text h1 {
+    height: 55px;
+    width: 450px;
+    color: darkcyan;
+    font-weight: 700;
+}
+.mens-jacket{
+    text-align: center;
+    color: rgb(29, 28, 28);
+   
+}
+.ladies-jacket{
+    text-align: center;
+    margin-top: 60px;
+    color:rgb(29, 28, 28) ;
+}
+
+
+@media only screen and (max-width: 600px) {
+    section.intro{
+        padding-top: 10px;
+    }
+    
+    .right-image {
+        height: 315px;
+        width: auto;
+    }
+    .first-text {
+        margin-top: 82px;
+        text-align: center;
+    }
+    .first-text h1 {
+        color: darkcyan;
+        font-weight: 700;
+        font-size: 35px !important;
+        height: unset;
+        width: unset;
+    }
+    .navbar {
+        background: #fff !important;
+    }
+    img.icon__img {
+        padding: 0px;
+        height: 101px;
+    }
+}
+.navbar {
+    background: #faebd7 !important;
+}
+img.icon__img {
+    height: 100px;
+    width: 73px;
+}
